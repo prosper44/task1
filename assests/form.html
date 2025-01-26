@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="url(https://www.figma.com/file/cGlwfx7f9XDwTnE4UugLdy/image/197a7e4d9af128e66ac7d6d0e573cad6385214d3)" class="icon"/>
+<link rel="stylesheet" href="form.css">
+<script src="form.js"></script>
+</head>
+<body>
+<div class="container">
+    
+ 
+    <div class="media">
+        <p class="social">Social media shared today, tomorrow <br/>or by location</p>
+        
+        <div class="scroll-container">
+            <div class="item1">
+             <img  src="phone.png" width="180px" height="290px"/>
+            </div>
+             
+            <div class="item2">
+             <img  src="phone.png" width="150px" height="220px"/>
+            </div>
+             
+            <div class="item3">
+             <img  src="phone.png" width="150px" height="220px"/>
+            </div>
+         </div>
+    </div>
+
+
+<div class="new-container">
+    
+    <div class="container-firstName">
+        
+            <img class="logo" src="logo.png" width="23px" height="24px"/> <span class="capzul">Capzul</span>
+            <h1 class="acct">Create account</h1>
+             <p class="band">For business,band or celebrity</p>
+        
+        <form action="submit" id="signing-form">
+            <label for="FirstName" class="firstname">First name</label><label class="lastname" for="LastName">last name</label>
+            <div class="names">
+                <input type="text" id="firstName" required>
+                
+                <input type="text" id="lastName" required>
+            </div>
+
+            <label class="mil" for="email or number" >Email or phone number</label> <label class="birth" for="email or number" >Date of birth (MM/DD/YY)</label>
+            <div class="date">
+                
+                <input type="text" id="number">
+
+                <input type="date" id="date" >
+            </div>
+
+
+            <label class="pass" for="password" >Password</label> <label class="confirm" for="confirm-password" >Confirm Password</label>
+            <div class="code">
+                
+                <input  type="password" id="password" required>
+          
+                <input type="password" id="confirm" required>
+            </div>
+
+            <div class="lnk">
+                <span> <input class="chk" type="checkbox" name="remember" id="check"> Remember me</span><a href="/" class="forget" >Forget password?</a>
+            </div>
+            <input class="chk2" type="checkbox"  name="agree" id="agree-check"> <span>I agree to all the <a href="/">Terms</a> and <a href="/">Privacy policy</a></span>
+            
+            <div class="btns">
+                <button onclick="button()" id="create-account" class="btn1">create account</button>
+                <button onclick="button()" class="btn2"><img class="google" src="google.png" width="15px" height="15px"/>sign-in with google</button>
+            </div>
+
+            <p class="login">Don't have an account ? <a href="/">Log in</a> </p> 
+            <div class="store">
+                <div><img src="google-play.png" width="90px" height="29px"/></div>
+                <div class="apple"><img src="apple store.png" width="90px" height="20px"/></div>
+            </div>
+         </form>
+    </div>
+
+            
+            
+        
+        
+             
+
+
+</div>
+</div>
+    
+
+
+   
+</body>
+</html>
